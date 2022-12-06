@@ -29,3 +29,5 @@ function getCount(str) {
 + [Computer assembly](https://svorobey.github.io/ComputerAssembly/)
 + [Uber](https://svorobey.github.io/Uber/)
 + [WebDevelopmentProject](https://svorobey.github.io/WebDevelopmentProject/)
+# Education:
+I am just a self-taught guy who wants to achieve high results in the case that I enjoy
