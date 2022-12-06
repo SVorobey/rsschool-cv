@@ -1,1 +1,1 @@
-[rsschool-cv/cv](svorobey.guthub.io/rsschool-sc/cv)
+[rsschool-cv/cv](svorobey.guthub.io/rsschool-cv/cv)
