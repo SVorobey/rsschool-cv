@@ -31,3 +31,5 @@ function getCount(str) {
 + [WebDevelopmentProject](https://svorobey.github.io/WebDevelopmentProject/)
 # Education:
 I am just a self-taught guy who wants to achieve high results in the case that I enjoy
+# The english language level:
+According to english test on EPAM web-site I have B1 level. I communicated with some foreigners about 2 or 3 years ago and that was quite easy. Also I took part in several english competitions when I was at school
