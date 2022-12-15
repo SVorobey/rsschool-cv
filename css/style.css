@@ -42,19 +42,24 @@ body {
     display: flex;
 }
 
-.about__basic-info__first-row__left-column h1, .about__basic-info__second-row__left-column h2, .about__basic-info__first-row__right-column h2, .about__basic-info__second-row__right-column h3 {
+.about__basic-info__first-row__left-column h1, 
+.about__basic-info__second-row__left-column h2, 
+.about__basic-info__first-row__right-column h2, 
+.about__basic-info__second-row__right-column h3 {
     color: #000;
     text-transform: uppercase;
     margin: 0;
 }
 
-.about__basic-info__first-row__left-column h1, .about__basic-info__second-row__right-column h3 {
+.about__basic-info__first-row__left-column h1, 
+.about__basic-info__second-row__right-column h3 {
     font-family: 'Anton', sans-serif;
     line-height: 1;
     font-size: 45px;
 }
 
-.about__basic-info__second-row__left-column h2, .about__basic-info__first-row__right-column h2 {
+.about__basic-info__second-row__left-column h2, 
+.about__basic-info__first-row__right-column h2 {
     font-family: 'Rock Salt', cursive;
     line-height: 1.5;
     font-size: 35px;
@@ -110,4 +115,59 @@ body {
 .about__quote-author {
     font-size: 20px;
     color: #FF8C00;
+}
+
+.contacts-and-skills__wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contacts__list-roster-item {
+    list-style-type: "\21DD";
+}
+
+.contacts__list-roster-item p {
+    margin: 17.6px 0;
+}
+
+.section__title {
+    font-family: 'Rock Salt', cursive;
+    font-size: 30px;
+}
+
+.skills__list-roster-item {
+    list-style-type: "\2711";
+}
+
+.contacts-and-skills {
+    margin-top: 15px;
+}
+
+.summary {
+    margin-bottom: 20px;
+}
+
+.summary-description {
+    font-size: 16px;
+}
+
+.courses-and-projects__projects-description__list-item {
+    list-style-type: "\1F680";
+    margin: 16px 0;
+}
+
+.courses-and-projects__projects-description__list-item__link {
+    text-decoration: none;
+    color: #000;
+}
+
+.courses-and-projects__projects-description__list-item__link:hover {
+    color: #778899;
+    text-decoration: underline;
+    transition: all 0.6s;
+}
+
+.courses-and-projects__wrapper {
+    display: flex;
+    justify-content: space-around;
 }
