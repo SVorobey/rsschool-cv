@@ -12,21 +12,24 @@
 </head>
 <body>
 
-    <div class="burger-menu">
-        <a class="burger-menu__button" href="">
-            <p class="burger-menu__icon"></p>
-        </a>
-        <nav class="burger-menu__nav">
-            <ul>
-                <li><a href="#home" class="burger-menu__link">Home</a></li>
-                <li><a href="#contacts-and-skills" class="burger-menu__link">Contacts & skills</a></li>
-                <li><a href="#summary" class="burger-menu__link">Summary</a></li>
-                <li><a href="#courses-and-work" class="burger-menu__link">Course & work examples</a></li>
-                <li><a href="#education-english-and-code" class="burger-menu__link">Education, english & code example</a></li>
+    <div class="page-menu">
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home">Home</a></li>
+                <li class="nav__item"><a href="#contacts-and-skills">Contacts & skills</a></li>
+                <li class="nav__item"><a href="#summary">Summary</a></li>
+                <li class="nav__item"><a href="#courses-and-work">Courses & work examples</a></li>
+                <li class="nav__item"><a href="#education-english-and-code">Education, english level & code example</a></li>
             </ul>
         </nav>
-        <div class="burger-menu__overlay"></div>
+        <div class="page__humburger">
+            <div class="humburger__line"></div>
+            <div class="humburger__line"></div>
+            <div class="humburger__line"></div>
+        </div>
     </div>
+
+</div> 
 
     <header id="home">
         <div class="container">
@@ -62,7 +65,7 @@
         </div>
     </header>
     <main>
-        <section class="contacts-and-skills" id="courses-and-work">
+        <section class="contacts-and-skills" id="summary">
             <div class="container">
                 <div class="contacts-and-skills__wrapper">
                     <div class="contacts-and-skills__contacts">
@@ -87,7 +90,7 @@
                         <div class="section__title">
                             <h2>My skills</h2>
                         </div>
-                        <div class="skills__list" id="summary">
+                        <div class="skills__list">
                             <ul class="skills__list-roster">
                                 <li class="skills__list-roster-item">
                                     <p>HTML5, CSS, JavaScript</p>
@@ -104,7 +107,7 @@
                 </div>
             </div>
         </section>
-        <section class="summary">
+        <section class="summary"  id="courses-and-work" >
             <div class="container">
                 <div class="section__title">
                     <h2>Summary</h2>
