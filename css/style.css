@@ -1,0 +1,353 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {
+    scroll-behavior: smooth; 
+}
+
+body {
+    background: linear-gradient(90deg, rgb(195, 195, 195), rgb(231, 231, 231), rgb(231, 231, 231));
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    margin-bottom: 65px;
+    padding-top: 45px;
+}
+
+.header-menu__list-item {
+    list-style-type: none;
+}
+
+.header-menu__list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-menu__list-item a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    background: #A9A9A9;
+    border-radius: 15px;
+    padding: 5px 7px;
+}
+
+.header-menu__list-item a:hover {
+    color: #FFF;
+    background: #696969;
+    transition: all 0.6s;
+}
+
+.about__basic-info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about__basic-info__first-row, .about__basic-info__second-row {
+    display: flex;
+}
+
+.about__basic-info__first-row__left-column h1, 
+.about__basic-info__second-row__left-column h2, 
+.about__basic-info__first-row__right-column h2, 
+.about__basic-info__second-row__right-column h3 {
+    color: #000;
+    text-transform: uppercase;
+}
+
+.about__basic-info__first-row__left-column h1, 
+.about__basic-info__second-row__right-column h3 {
+    font-family: 'Anton', sans-serif;
+    line-height: 1;
+    font-size: 45px;
+}
+
+.about__basic-info__second-row__left-column h2, 
+.about__basic-info__first-row__right-column h2 {
+    font-family: 'Rock Salt', cursive;
+    line-height: 1.5;
+    font-size: 35px;
+}
+
+.about__basic-info__first-row__left-column {
+    border: 2px solid #000;
+    padding: 6px 2px;
+    max-width: 174px;
+}
+
+.about__basic-info__first-row__right-column {
+    border: 2px solid #000;
+    max-width: 1026px;
+    padding: 2px 200px;
+    border-left: none;
+}
+
+.about__basic-info__second-row__left-column {
+    border: 2px solid #000;
+    padding: 2px 12px;
+    border-top: none;
+}
+
+.about__basic-info__second-row__right-column {
+    border: 2px solid #000;
+    padding: 7px 331px;
+    border-top: none;
+    border-left: none;
+}
+
+.about__image-picture {
+    width: 550px;
+    height: 900px;
+}
+
+.about__image {
+    display: flex;
+    justify-content: center;
+    margin: 25px 0;
+}
+
+.about__quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about__quote-text { 
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.about__quote-author {
+    font-size: 20px;
+    color: #FF8C00;
+}
+
+.contacts-and-skills__wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contacts__list-roster-item {
+    list-style-type: "\21DD";
+    margin: 17.6px 0;
+}
+
+.section__title {
+    font-family: 'Rock Salt', cursive;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.skills__list-roster-item {
+    list-style-type: "\2711";
+    margin: 17.6px 0;
+}
+
+.contacts-and-skills {
+    margin-bottom: 45px;
+}
+
+.summary {
+    margin-bottom: 45px;
+}
+
+.summary-description {
+    font-size: 16px;
+}
+
+.courses-and-projects {
+    margin-bottom: 45px;
+}
+
+.courses-and-projects__projects-description__list-item {
+    list-style-type: "\1F680";
+    margin: 18.4px 0;
+}
+
+.courses-and-projects__projects-description__list-item__link {
+    text-decoration: none;
+    color: #000;
+}
+
+.courses-and-projects__projects-description__list-item__link:hover {
+    color: #778899;
+    text-decoration: underline;
+    transition: all 0.6s;
+}
+
+.courses-and-projects__wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.courses-and-projects__courses-description__list-item {
+    list-style-type: disc;
+    margin: 18.4px 0;
+}
+
+.education-english-and-code__code-example {
+    background: #f6f8fa;
+    max-width: 300px;
+    padding: 0 30px;
+    border-radius: 20px;
+}
+
+.education-english-and-code__wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.education-english-and-code__english-description, .education-english-and-code__education-description {
+    max-width: 350px;
+    margin-top: 40px;
+}
+
+.education-english-and-code {
+    margin-bottom: 45px;
+}
+
+.footer__gitHub-link {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+
+.footer__gitHub-link:hover {
+    color: #FFF;
+    text-decoration: underline;
+    transition: all 0.6s;
+}
+
+.footer__year {
+    font-size: 14px;
+    color: #000
+}
+
+.footer__logo-img {
+    width: 100px;
+    height: 50px;
+}
+
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    background: #778899;
+    padding: 10px 0;
+}
+
+.contacts__list-roster-item,
+.skills__list-roster-item {
+    margin: 20px 0;
+}
+
+.page-menu{
+    position: fixed;
+    bottom: 50px;
+    cursor: pointer;
+    left: 50px;
+    z-index: 1000;
+}
+.page__humburger{
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    flex-direction: column;
+    margin-bottom: 35px;
+}
+
+.humburger__line{
+    width: 40px;
+    height: 4px;
+    background: #101010;
+}
+
+.nav__item{
+    font-family: "IBM Plex Mono";
+    margin-bottom: 10px;
+    position: relative; 
+}
+
+.nav__item a {
+    text-decoration: none; 
+    color: #000;
+}
+
+.nav__list{
+    transition: all .2s linear;
+    opacity: 0;
+    margin-bottom: 50px;
+}
+
+.active{
+    opacity: 1;
+}
+
+.nav__item::after{
+    transition: all .2s linear;
+    width: 0;
+    height: 4px;
+    background: #101010;
+    content: "";
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+}
+
+.nav__item:hover::after{
+    width: 100%; 
+}
+    
